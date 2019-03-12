@@ -1,0 +1,116 @@
+body {
+	background-color: #EDECF8;
+	font-size: 1rem;
+	font-family: 'Josefin Sans', sans-serif;
+	line-height: 0.3;
+	text-decoration: none;
+	color: #121032;
+}
+
+h2 {
+	font-family: 'Josefin Slab', sans-serif;
+	font-size: 4em;
+	text-align: center;
+	color: #4238B5;
+}
+
+h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 6em;
+	text-align: center;
+	color: #4238B5;
+}
+
+p {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#shopping-list {
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Josefin Sans', sans-serif; 
+}
+
+input, button {
+    width: 100%;
+    margin: 1em 0;
+    padding: 1em 0;
+    font-size: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+button {
+	background-color: #534ABB;
+	color: #DCDAF1;
+	border-color: #CBC8EA;
+}
+
+/*inputed data and social media*/
+ul {
+	font-size: 1rem;
+	list-style-type: none;
+  	display: flex;
+	justify-content: space-around;
+	padding: 2em 0;
+	margin: 1em auto;
+  	width: 100%;
+
+}
+
+#user-input {
+	padding: 1em 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#display-data {
+	width: 100%;
+	margin: 1em auto;
+	font-size: 1rem;
+	background-color: #A9A4DD;
+	display: block;
+}
+
+#display-data li {
+    list-style-image: url(../images/check.png);
+    width: 2px;
+    margin: 2rem 0;
+    margin-left: 4rem;
+    font-size: 1em;
+}
+
+.error {
+    color: #4238B5;
+    border: #4238B5 solid 6px;
+    padding: 2em 0;
+    text-align: center;
+    display: none;
+}
+
+a {
+	font-size: 2rem;
+	text-align: center;
+	padding: 0.5em 0;
+	text-decoration: none;
+	color: #181542;
+}
+
+a:hover {
+  background-color: #181542;
+  color: #DCDAF1;
+}
+
+@media only screen and (min-width: 35rem) {
+
+body {
+	font-size: 1.2rem;
+}
+
+#shopping-list {
+    max-width: 45rem;
+}
+
+ul {
+	width: 50%;
+}
+
+}
